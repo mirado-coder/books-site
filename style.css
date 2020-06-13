@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: initial;
+}
+html{
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* /* color: ivory; * */
+}
+
+
+.text-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    box-shadow:2px 2px 5px rgba(24, 14, 14, 0.1);
+    padding: 10px 0;
+    /* position: fixed;
+    width: 100%; */
+    height: 50px;
+    z-index: 2;
+    background-color: white;
+}
+.logo{
+    background:  darkred;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 10px;
+    font: 16px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 45px;
+    height: 20px;
+}
+.logo a{
+    color:white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navlink ul{
+    display: flex;
+    margin: 10px 0;
+    
+}
+
+.link-and-button{
+    display: flex;
+}
+.navlink ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 25px 0;
+    font-size: 18px;
+}
+.navlink ul li a:hover{
+    border-bottom: 1.5px solid darkred;
+    color:darkred;
+}
+
+.active{
+    width: 20%;
+    border-bottom: 1.5px solid darkred;
+}
+
+.navbar-logo{
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+.btn{
+    /* height: 10%; */
+    /* max-width: 50px; */
+    font-size: 16px;
+    border: none;
+    border-radius: 40px;
+    padding:13px;
+    background-color:rgb(243, 201, 208);
+    color:red;
+    /* margin-top: 10px; */
+    height: 20px;
+    width: 80px;
+}
+.btn:hover,
+.btn1:hover{
+    background-color:rgb(243, 201, 208);
+    color:darkred;
+    /* border-radius: 30px; */
+    /* border: none; */
+}
+.btn1{
+    background-color:white;
+    font-size: 16px;
+    color:black;
+    border-radius: 40px;
+    border:none;
+    padding: 13px;
+    /* margin-top: 10px; */
+    height: 20px;
+    width: 80px;
+
+}
+.photo{
+    text-align: center;
+    background: url(../css/img/business-chair-coffee-computer-265072.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    /* padding-bottom: 30px; */
+    font-size: 40px;
+}
+.photo h1{
+    padding-top: 150px;
+    color: #fff;
+}
+.event{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.btn2{
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    background-color:darkred;
+    color:white;
+    width: 80px;
+
+}
+.btn2:hover{
+    background:rgb(238, 199, 205);
+    color:black;
+}
+.feature{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.number{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+    width: 250px;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.number-name h1{
+    text-align: left;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+.number > img{
+    width: 290px;
+    border-radius: 5px;
+}
+.laptop{
+    /* display: flex; */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+    width: 250px;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;  
+}
+.laptop > img{
+    width: 118%;
+    height: 97%;
+    border-radius: 5px; 
+    object-fit: cover; 
+}
+.man{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.btn-s{ 
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    background-color: darkred;
+    color: white;
+    height: 15px;
+    width: 80px;
+}
+.btn-s:hover{
+    background:lightpink;
+    color:black;
+}
+.text p{
+    padding: 15px;
+    font-size:black bolder;
+    /* margin-top: 5px; */
+}
+.last p{
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    font-size: 13px;
+    
+}
+.footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 2px;
+    
+}
+.logo2{
+    background:  darkred;
+    max-width: 30px;
+    padding: 10px;
+    margin: 10px;
+    font: 16px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* color: white; */
+    
+}
+.logo2 a{
+    color: white;
+}
+.vimp{
+    padding-top: 16px;
+}
+.form input{
+    height: 25px;
+    width: 35%;
+}
+.tex{
+    position: absolute;
+    /* padding-bottom: 5px; */
+    top:250px;
+    left:30px;
+    /* font-weight: bold; */
+    color: #fff;
+}
+.icon{
+    color: white;
+    background: none;
+    position: absolute;
+    font-size: 16px;
+    padding-top: 8px;
+}
+.phone{
+    margin-bottom:-5px;
+}
